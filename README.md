@@ -22,7 +22,7 @@ Full stack Ruby on Rails application to help a secretary to manage contacts insi
 ### Here is what the application looks like at the moment :
 
 ### Welcome Page:
-![welcome](https://github.com/camilla000/contatos-cptm/blob/main/images/demo-img.png?raw=true)
+![welcome](https://github.com/camilla000/contatos-cptm/blob/main/images/landing.png?raw=true)
 
 ### Signup  Page:
 ![img](https://github.com/camilla000/contatos-cptm/blob/main/images/signup.png?raw=true)
@@ -36,15 +36,15 @@ Full stack Ruby on Rails application to help a secretary to manage contacts insi
 
 # :train2:  Contatos CPTM :brazil:
 
-Full stack Ruby on Rails aplicação para auxiliar uma secretária a gerenciar contatos dentro da Companhia Paulista de Trens Metrôpolitanos - CPTM.
+Full stack Ruby on Rails aplicação para auxiliar uma secretária a gerenciar contatos dentro da Companhia Paulista de Trens Metropolitanos - CPTM.
 
 ## :heavy_check_mark:Funcionalidades :
 
 - Usuário pode criar um perfil  :white_check_mark:
 - Usuário pode fazer login  :white_check_mark:
 - Usuário pode fazer logout  :white_check_mark:
-- Usuário pode criar adicionar um novo contato  :white_check_mark:
-- Usuário pode editar um  :white_check_mark:
+- Usuário pode adicionar um novo contato  :white_check_mark:
+- Usuário pode editar um contato :white_check_mark:
 - Usuário pode deletar um contato  :white_check_mark:
 - Usuário pode visualizar sua lista de contatos salvos  :white_check_mark:
 - Usuário pode deletar perfil  :white_check_mark:
@@ -55,7 +55,7 @@ Full stack Ruby on Rails aplicação para auxiliar uma secretária a gerenciar c
 # Imagens de como a aplicação se parece no momento:
 
 ### Página inicial:
-![welcome](https://github.com/camilla000/contatos-cptm/blob/main/images/demo-img.png?raw=true)
+![welcome](https://github.com/camilla000/contatos-cptm/blob/main/images/landing.png?raw=true)
 
 ### Página de cadastro:
 ![img](https://github.com/camilla000/contatos-cptm/blob/main/images/signup.png?raw=true)
