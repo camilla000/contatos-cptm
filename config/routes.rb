@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   # get 'home/index'
   # get 'home/about'
   #root 'home#index'
-  root 'contatos#index'
+  # root 'contatos#index'
+  root 'home#welcome'
 end
