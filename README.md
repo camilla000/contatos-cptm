@@ -1,13 +1,11 @@
 
-# :train2: CPTM Contacts :uk:
+#  CPTM Contacts :uk:
 
-Full stack Ruby on Rails application to help a secretary to manage contacts inside the São Paulo's Metropolitan Train Company - CPTM.
+Full stack Ruby on Rails application to help a secretary to manage contacts inside the São Paulo's Metropolitain Train Company - CPTM.
 
-##   Functionalities :
+## Functionalities :
 
 - User can create a profile  :white_check_mark:
-- User can login  :white_check_mark:
-- User can logout  :white_check_mark:
 - User can create a contact  :white_check_mark:
 - User can edit a contact  :white_check_mark:
 - User can delete a contact  :white_check_mark:
@@ -25,27 +23,25 @@ Full stack Ruby on Rails application to help a secretary to manage contacts insi
 ### Here is what the application looks like at the moment :
 
 ### Welcome Page:
-![welcome](https://github.com/camilla000/contatos-cptm/blob/main/images/demo-img.png?raw=true)
+![img](app/assets/images/demo-img.png)
 
 ### Signup  Page:
-![img](https://github.com/camilla000/contatos-cptm/blob/main/images/signup.png?raw=true)
+![img](app/assets/images/signup.png)
 
 ### Sign-in Page:
-![img](https://github.com/camilla000/contatos-cptm/blob/main/images/signin.png?raw=true)
+![img](app/assets/images/signin.png)
 
 ### Contacts Page:
-![contacts](https://github.com/camilla000/contatos-cptm/blob/main/images/contacts.png?raw=true)
+![img](app/assets/images/contacts.png)
 
 
-# :train2:  Contatos CPTM :brazil:
+#  Contatos CPTM :brazil:
 
 Full stack Ruby on Rails aplicação para auxiliar uma secretária a gerenciar contatos dentro da Companhia Paulista de Trens Metrôpolitanos - CPTM.
 
-## :heavy_check_mark:Funcionalidades :
+## Funcionalidades :
 
 - Usuário pode criar um perfil  :white_check_mark:
-- Usuário pode fazer login  :white_check_mark:
-- Usuário pode fazer logout  :white_check_mark:
 - Usuário pode criar adicionar um novo contato  :white_check_mark:
 - Usuário pode editar um  :white_check_mark:
 - Usuário pode deletar um contato  :white_check_mark:
@@ -59,14 +55,14 @@ Full stack Ruby on Rails aplicação para auxiliar uma secretária a gerenciar c
 
 # Imagens de como a aplicação se parece no momento:
 
-### Pagina inicial:
-![welcome](https://github.com/camilla000/contatos-cptm/blob/main/images/demo-img.png?raw=true)
+### Welcome Page:
+![img](app/assets/images/demo-img.png)
 
-### Página de cadastro:
-![img](https://github.com/camilla000/contatos-cptm/blob/main/images/signup.png?raw=true)
+### Signup  Page:
+![img](app/assets/images/signup.png)
 
-### Página de login:
-![img](https://github.com/camilla000/contatos-cptm/blob/main/images/signin.png?raw=true)
+### Sign-in Page:
+![img](app/assets/images/signin.png)
 
-### Lista de contatos:
-![contacts](https://github.com/camilla000/contatos-cptm/blob/main/images/contacts.png?raw=true)
+### Contacts Page:
+![img](app/assets/images/contacts.png)
