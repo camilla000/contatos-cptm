@@ -1,0 +1,55 @@
+<% if user_signed_in? %>
+  <div class="container">
+      <h3>Contatos:</h3>
+
+  <table class="table table-hover table-responsive ">
+  <thead class="thead-dark">
+      <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Email</th>
+        <th>Departamento</th>
+        <th>Cargo</th>
+        <th>Locação</th>
+        <th>Chefe</th>
+        <th>Secretária</th>
+      
+        <th colspan="2"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @contatos.each do |contato| %>
+      <% if contato.user == current_user %>
+        <tr>
+          <td> 
+          <%= link_to contato.nome, contato %>
+          </td>
+          <td><%= contato.telefone %></td>
+          <td><%= contato.email %></td>
+          <td><%= contato.departamento %></td>
+          <td><%= contato.cargo %></td>
+          <td><%= contato.locacao %></td>
+          <td><%= contato.chefe %></td>
+          <td><%= contato.secretaria %></td>
+         
+          <%# <td><%#= link_to 'Mostrar', contato, class:"btn btn-outline-info btn-sm" %></td> 
+        
+          <td><%= link_to 'Editar', edit_contato_path(contato), class:"btn btn-outline-info btn-sm" %></td>
+          <td><%= link_to 'Deletar', contato, method: :delete, data: { confirm: 'Tem certeza?' }, class:"btn btn-outline-danger btn-sm" %></td>
+          
+          
+        </tr>
+        
+        <% end %>
+        
+      <% end %>
+    </tbody>
+  </table>
+
+  <%= link_to 'Novo Contato', new_contato_path, class:"btn btn-secondary" %>
+  </div>
+<% else %>
+  <h2>Bem vindo ao diretório de contatos da CPTM</h2>
+
+<% end %>

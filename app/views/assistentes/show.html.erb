@@ -1,0 +1,28 @@
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center">
+
+<br>
+<div class="jumbotron ">
+  
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center">
+  <p class="lead"><p>
+  <strong>Chefe:</strong>
+  <%= @assistente.chefe %>
+</p>
+</p>
+
+<p>
+  <strong>Secretária:</strong>
+  <%= @assistente.secretaria %>
+</p>
+</div>
+<br>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center">
+<%= link_to 'Editar', edit_assistente_path(@assistente) , class:"btn btn-outline-info"%> 
+<%= link_to 'Voltar', assistentes_path, class:"btn btn-outline-info" %>
+</div>
+
+
+</div>
+</div>

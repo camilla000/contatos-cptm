@@ -1,0 +1,51 @@
+<br>
+<div class="jumbotron ">
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center">
+  <h1 class="display-4"><%= @contato.nome %></h1>
+  <hr class="my-4">
+  <p class="lead"><p>
+  <strong>Telefone:</strong>
+  <%= @contato.telefone %>
+</p>
+
+
+<p>
+  <strong>Email:</strong>
+  <%= @contato.email %>
+</p>
+
+<p>
+  <strong>Departamento:</strong>
+  <%= @contato.departamento %>
+</p>
+
+<p>
+  <strong>Cargo:</strong>
+  <%= @contato.cargo %>
+</p>
+
+<p>
+  <strong>Locacao:</strong>
+  <%= @contato.locacao %>
+</p>
+
+<p>
+  <strong>Chefe:</strong>
+  <%= @contato.chefe %>
+</p>
+
+<p>
+  <strong>Secretária:</strong>
+  <%= @contato.secretaria %>
+</p></p>
+  <hr class="my-4">
+  </div>
+ 
+
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 offset-3 float-md-center">
+
+ <%= link_to 'Editar', edit_contato_path(@contato), class:"btn btn-outline-info" %> 
+<%= link_to ' Voltar', contatos_path, class:"btn btn-outline-info" %>
+</div>
+</div>

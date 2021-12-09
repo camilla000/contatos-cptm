@@ -1,0 +1,29 @@
+<%= form_with(model: assistente) do |form| %>
+  <% if assistente.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(assistente.errors.count, "error") %> prohibited this assistente from being saved:</h2>
+
+      <ul>
+        <% assistente.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+
+   <div class="field form-group">
+    <%= form.label :chefe %>
+    <%= form.text_field :chefe, class:"form-control", placeholder: "Chefe" %>
+  </div>
+
+    <div class="field form-group">
+  
+    <%= form.text_field :secretaria, class:"form-control", placeholder: "Secretária" %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit  class:"btn btn-outline-info" %>
+  </div>
+<% end %>

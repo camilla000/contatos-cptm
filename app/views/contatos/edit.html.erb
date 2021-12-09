@@ -1,0 +1,9 @@
+<h1>Editar Contato</h1>
+
+<%= render 'form', contato: @contato %>
+
+<%= link_to 'Mostrar', @contato, class:"btn btn-outline-info" %> 
+<%= link_to 'Deletar', @contato, method: :delete, data: { confirm: 'Tem certeza?' }, class:"btn btn-outline-danger" %>
+<%= link_to ' Voltar', contatos_path, class:"btn btn-outline-info" %>
+<br /> <br /> <br />
+

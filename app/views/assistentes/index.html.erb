@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Secretárias:</h1>
+<table class="table table-hover table-bordered table-hover  table-sm">
+ <thead class="thead-dark">
+    <tr>
+      <th>Nome do Chefe</th>
+      <th>Secretária</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @assistentes.each do |assistente| %>
+      <tr>
+        <td><%= assistente.chefe %></td>
+        <td><%= assistente.secretaria %></td>
+        <td><%= link_to 'Mostrar', assistente , class:"btn btn-outline-info btn-sm" %></td>
+        <td><%= link_to 'Editar', edit_assistente_path(assistente),  class:"btn btn-outline-info btn-sm" %></td>
+        <td><%= link_to 'Deletar', assistente, method: :delete, data: { confirm: 'Tem certeza?' }, class:"btn btn-outline-info btn-sm" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Nova Secretária', new_assistente_path , class:"btn btn-secondary"%>
